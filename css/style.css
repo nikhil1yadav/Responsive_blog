@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    font-family: var(--font1);
+    /* height: 74px; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    
+}
+.left span img{
+    width: 50%;
+}
+.left ul{
+    display: flex;
+    align-items: center;
+    margin: 0 19px;
+    font-size: 20px;
+    
+}
+
+.left ul li {
+    list-style: none;
+    margin: 0 10px;
+    font-family: var(--font2);
+}
+
+.left ul li a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.4s ease-in-out;
+}
+.left ul li a:hover {
+    background-color: var(--main-bg-color);
+    color:white;
+    padding: 5px;
+    border-radius: 3px;
+}
+.content{
+    height: 100%;
+    /* background-color:rgb(33, 33, 199); */
+    display: flex;
+    margin-top:12 ;
+    position: relative;
+    
+}
+.content::after{
+    content: "";
+    position:absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.23;
+    border-radius: 4px;
+    background: url('/img/free-vector-designers-desk-illustration.jpg');
+}
+.content-left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: var(--font2);
+    z-index: 1;
+    
+}
+.content-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.content-right img{
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 200px;
+    
+}
+.home-articles{
+    background-color: rgb(243, 239, 239);
+    margin-top: 14px;
+    border-radius: 4px;
+    position: relative;
+    
+
+}
+.yearbox{
+    position: absolute;
+    width: 234px;
+    height: 245px;
+    right: 50px;
+    top: 80px;
+    /* background-color: red; */
+}
+.yearbox div{
+    margin: 12px 0px;
+    
+
+}
+.home-article{
+    display: flex;
+    margin: 25px;
+
+}
+.home-article img{
+    height: 180px;
+    width: 200px;
+    border-radius: 5px;
+
+}
+.home-aticle-content{
+    align-self: center;
+    padding: 25px;
+}
+.home-aticle-content a{
+    text-decoration: none;
+    color: var(--main-bg-color);
+}
+.about{
+    margin: 12px;
+    padding: 5px;
+}
+.about p{
+    text-align: left;
+}
+.footer{
+    display: flex;
+    background-color: var(--main-bg-color);
+    align-items: center;
+    height: 49px;
+    /* background-color:violet; */
+    justify-content: center;
+    color:black;
+    flex-direction: column;
+    
+}
+.footer a{
+    color:black;
+}
+

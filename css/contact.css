@@ -1,0 +1,22 @@
+.contact-content{
+    
+    overflow: hidden;
+    /* background-color:rgb(33, 33, 199); */
+    display: block;
+    margin-top:12px ;
+    position: relative;
+    
+}
+.contact-content::after{
+    content: "";
+    position:absolute;
+    top: 0;
+    height: 90vh;
+    width: 100%;
+    opacity: 0.43;
+    border-radius: 4px;
+    background: url(/img/free-vector-designers-desk-illustration.jpg  );
+    z-index: -1;
+}
+.contact-form{
+}
